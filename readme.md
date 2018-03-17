@@ -8,15 +8,14 @@
 
 - Create a Laravel project: `composer create-project laravel/laravel myproject`
 - `cd myproject`
-- Add dependency: `composer require thomasdseao/ovh_sms`
-
-If you get `[InvalidArgumentException] Could not find package thomasdseap/ovh_sms at any version for your minimum-stability (stable). Check the package spelling or your minimum-stability` you must add these lines to your composer.json an then re-run previous command.
-
+- Installation Via Composer
+Add this to your `composer.json` file, in the require object:
+```javascript
+"thomasdseao/ovh_sms": "1.0.0"
 ```
-    "minimum-stability": "dev",
-    "prefer-stable" : true
-```
-- Copy configuration: `php artisan vendor:publish`
+- After that, run `composer install` to install the package.
+- Copy configuration: `php artisan vendor:publish` (To publish the ovhsms config file)
+
 
 Now you are ready to use the Ovhsms Facade, e.g. open routes/web.php:
 
