@@ -1,0 +1,31 @@
+{
+    "name": "thomasdseao/ovh_sms",
+    "description": "Ovh SMS package for laravel",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "De Stefano Thomas",
+            "email": "thomas.dseao@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Thomasdseao\\Ovh_sms\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.5.0",
+        "illuminate/http": ">=5.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Thomasdseao\\Ovh_sms\\OvhSmsProvider"
+            ],
+            "aliases": {
+                "Ovhsms": "Thomasdseao\\Ovh_sms\\OvhSmsFacade"
+            }
+        }
+    }
+}
