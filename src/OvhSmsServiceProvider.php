@@ -1,6 +1,6 @@
 <?php
 
-namespace Thomasdseao\Ovh_sms;
+namespace Thomasdseao\OvhSms;
 
 use Illuminate\Support\ServiceProvider;
 
