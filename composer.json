@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Thomasdseao\\Ovh_sms\\": "src/"
+            "Thomasdseao\\OvhSms\\": "src/"
         }
     },
     "require": {
@@ -21,10 +21,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Thomasdseao\\Ovh_sms\\OvhSmsProvider"
+                "Thomasdseao\\OvhSms\\OvhSmsProvider"
             ],
             "aliases": {
-                "Ovhsms": "Thomasdseao\\Ovh_sms\\OvhSmsFacade"
+                "Ovhsms": "Thomasdseao\\OvhSms\\OvhSmsFacade"
             }
         }
     }
