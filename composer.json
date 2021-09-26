@@ -2,7 +2,7 @@
     "name": "thomasdseao/ovh_sms",
     "description": "Ovh SMS package for laravel",
     "license": "MIT",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "authors": [
         {
             "name": "De Stefano Thomas",
